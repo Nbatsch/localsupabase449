@@ -1,0 +1,17 @@
+@font-face {
+    font-family: "Sabon-Font";
+    src: url(Sabon-Font/Sabon-Roman.ttf) format("truetype");
+}
+
+#books {
+    font-family: "Sabon-Font", sans-serif;
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px solid maroon;
+}
+        
+th,
+td {
+    padding: 20px;
+}
